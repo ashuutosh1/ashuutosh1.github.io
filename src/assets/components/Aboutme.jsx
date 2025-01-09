@@ -5,7 +5,7 @@ export default function Aboutme() {
   return (
     <div className="flex flex-col gap-5 mt-40 max-md:mt-10">
       <span class="text-3xl font-semibold  max-md:ml-10">I am,</span>
-      <span className="text-7xl max-md:text-8xl max-md:ml-10 font-semibold bg-gradient-to-r from-black via-purple-900 to-pink-400 bg-clip-text text-transparent">
+      <span className="text-7xl max-md:text-8xl max-md:mx-10 font-semibold bg-gradient-to-r from-black via-purple-900 to-pink-400 bg-clip-text text-transparent">
         Ashutosh Kumar Singh
       </span>
       <span class="text-3xl max-md:text-4xl max-md:m-10 text-wrap">

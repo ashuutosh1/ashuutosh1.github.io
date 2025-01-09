@@ -9,7 +9,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className=" flex sidebar-box list-none text-2xl ml-40 max-md:ml-2 mt-40">
+    <div className=" flex sidebar-box list-none text-2xl ml-40 max-md:ml-2 mt-40 max-md:mt-10">
       <ul className="flex flex-col max-md:flex-row gap-10 list-none text-2xl font-medium flex-wrap">
         <li>
           <Link
