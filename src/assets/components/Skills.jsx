@@ -15,10 +15,10 @@ export default function Skills() {
               </div>
             </div>
             <div class="bg-green-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
-              <h3 class="font-semibold text-lg max-md:text-3xl mb-1 max-md:mb-4">
+              <h3 class="font-semibold text-lg max-md:text-2xl mb-1 max-md:mb-4">
                 Languages
               </h3>
-              <p class="leading-tight max-md:text-2xl text-justify w-full">
+              <p class="leading-tight max-md:text-xl text-justify w-full">
                 C, C++, Python, JavaScript/ TypeScript, Dart, SQL
               </p>
             </div>
@@ -34,10 +34,10 @@ export default function Skills() {
               </div>
             </div>
             <div class="bg-black col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
-              <h3 class="font-semibold text-lg max-md:text-3xl mb-1 max-md:mb-4">
+              <h3 class="font-semibold text-lg max-md:text-2xl mb-1 max-md:mb-4">
                 Liberary/ Framework
               </h3>
-              <p class="leading-tight max-md:text-2xl text-justify">
+              <p class="leading-tight max-md:text-xl text-justify">
                 <i class="fa-brands fa-react ml-1 mr-1"></i> ReactJS,
                 <i class="fa-brands fa-node-js ml-1 mr-1"></i> NodeJS, Express
                 JS,
@@ -56,10 +56,10 @@ export default function Skills() {
               </div>
             </div>
             <div class="bg-indigo-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
-              <h3 class="font-semibold text-lg max-md:text-3xl mb-1 max-md:mb-4 text-gray-50">
+              <h3 class="font-semibold text-lg max-md:text-2xl mb-1 max-md:mb-4 text-gray-50">
                 Tools
               </h3>
-              <p class="leading-tight max-md:text-2xl text-justify">
+              <p class="leading-tight max-md:text-xl text-justify">
                 Github, Firebase, Vercel,{" "}
                 <i class="fa-brands fa-figma mr-1 ml-1"></i>Figma
               </p>
@@ -76,10 +76,10 @@ export default function Skills() {
               </div>
             </div>
             <div class="bg-orange-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
-              <h3 class="font-semibold text-lg max-md:text-3xl mb-1 max-md:mb-4 text-white">
+              <h3 class="font-semibold text-lg max-md:text-2xl mb-1 max-md:mb-4 text-white">
                 Other Skills
               </h3>
-              <p class="leading-tight max-md:text-2xl text-justify">
+              <p class="leading-tight max-md:text-xl text-justify">
                 UI/UX designer, Team Management
               </p>
             </div>
