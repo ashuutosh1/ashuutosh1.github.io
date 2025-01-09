@@ -16,7 +16,7 @@ export default function Aboutme() {
           View Resume
         </button>
       </span>
-      <div class="flex text-3xl max-md:text-2xl gap-8 max-md:gap-8 max-md:mt-5 max-md:ml-8">
+      <div class="flex text-3xl max-md:text-2xl gap-8 max-md:gap-8 max-md:my-5 max-md:ml-8">
         <span className="links-me">
           <a href="#">
             <i class="fa-solid fa-envelope"></i>
