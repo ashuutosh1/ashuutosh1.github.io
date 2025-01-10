@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Timeline() {
   return (
-    <div class="p-4 mt-28 max-md:mt-5 ml-28 max-lg:ml-5">
-      <section className="dark:bg-gray-100 dark:text-gray-800">
-        <div className="container px-16 py-16 mx-auto space-y-8 lg:max-w-3xl">
+    <div class="p-4 mt-20 max-md:mt-5 ml-28 max-lg:ml-0">
+      <section className=" dark:text-gray-800">
+        <div className="container px-16 max-md:px-10 py-16 mx-auto space-y-8 lg:max-w-3xl">
           <h2 className="text-2xl font-bold md:text-4xl">Timeline</h2>
           <div className="space-y-8">
             <div>
