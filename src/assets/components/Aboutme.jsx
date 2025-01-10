@@ -48,7 +48,7 @@ export default function Aboutme() {
         <img
           src={Luffy}
           alt="dsfd"
-          className="max-w-48 max-md:min-w-72 max-h-80 border rounded-full object-cover"
+          className="max-w-48 max-lg:max-w-24 max-h-80 max-lg:max-h-40 border rounded-full object-cover"
         />
       </div>
     </div>
