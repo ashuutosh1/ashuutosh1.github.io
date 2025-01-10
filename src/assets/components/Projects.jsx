@@ -3,7 +3,8 @@ import React from "react";
 export default function Projects() {
   return (
     <div class=" p-4 mt-28 max-md:mt-5 ml-28 max-lg:ml-5">
-      <div className="max-w-xl p-8 mx-auto dark:bg-gray-100 dark:text-gray-800">
+      <div className="max-w-xl p-16 max-md:p-8 pr-10 max-md:pr-5 mx-auto dark:bg-gray-100 dark:text-gray-800">
+      <h2 className="text-2xl font-bold md:text-4xl pb-10">Projects</h2>
         <ul className="space-y-12">
           <li className="flex items-start space-x-3">
             <a

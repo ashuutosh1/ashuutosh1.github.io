@@ -8,13 +8,13 @@ export default function Skills() {
           <div class="flex md:contents">
             <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
               <div class="h-full w-6 flex items-center justify-center">
-                <div class="h-full w-1 bg-green-500 pointer-events-none"></div>
+                <div class="h-full w-1 bg-purple-500 pointer-events-none"></div>
               </div>
-              <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-green-500 shadow text-center">
+              <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-purple-500 shadow text-center">
                 <i class="fas fa-check-circle text-white"></i>
               </div>
             </div>
-            <div class="bg-green-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
+            <div class="bg-purple-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
               <h3 class="font-semibold text-lg max-md:text-2xl mb-1 max-md:mb-4">
                 Languages
               </h3>
@@ -69,13 +69,13 @@ export default function Skills() {
           <div class="flex md:contents">
             <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
               <div class="h-full w-6 flex items-center justify-center">
-                <div class="h-full w-1 bg-orange-500 pointer-events-none"></div>
+                <div class="h-full w-1 bg-gray-500 pointer-events-none"></div>
               </div>
-              <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-orange-500 shadow text-center">
+              <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-500 shadow text-center">
                 <i class="fas fa-exclamation-circle text-white"></i>
               </div>
             </div>
-            <div class="bg-orange-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
+            <div class="bg-gray-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
               <h3 class="font-semibold text-lg max-md:text-2xl mb-1 max-md:mb-4 text-white">
                 Other Skills
               </h3>

@@ -3,7 +3,7 @@
   padding: 0.5rem; /* Add padding */
   border-color: black; /* Set border color to red */
   border-style: solid; /* Ensure the border has a visible style */
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
   border-radius: 1rem;
   color: white;
   background-color: black; /* Smooth transition for hover effect */

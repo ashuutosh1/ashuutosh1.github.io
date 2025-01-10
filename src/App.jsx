@@ -10,7 +10,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <div className="dashboard-box max-md:flex-col gap-20 max-md:gap-12">
+      <div className="dashboard-box max-md:flex-col gap-40 max-lg:gap-12">
         <Sidebar />
         <Aboutme />
       </div>
