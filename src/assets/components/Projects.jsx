@@ -85,7 +85,7 @@ export default function Projects() {
               href="#"
               className="flex items-center h-8 text-sm hover:underline"
             >
-              v3.1.9
+              v1.0.0
             </a>
             <div className="flex-1 space-y-2">
               <div className="flex items-center justify-between space-x-4 dark:text-gray-600">
