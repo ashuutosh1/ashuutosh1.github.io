@@ -2,6 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Aboutme from "./assets/components/Aboutme";
 import Projects from "./assets/components/Projects";
+import Certificate from "./assets/components/Certificate";
 import Sidebar from "./assets/navigation/Sidebar";
 const router = createBrowserRouter([
   {
@@ -19,6 +20,16 @@ const router = createBrowserRouter([
       <div className="dashboard-box max-md:flex-col ">
         <Sidebar />
         <Projects />
+      </div>
+    ),
+  },
+
+  {
+    path: "/certificate",
+    element: (
+      <div className="dashboard-box max-md:flex-col ">
+        <Sidebar />
+        <Certificate />
       </div>
     ),
   },

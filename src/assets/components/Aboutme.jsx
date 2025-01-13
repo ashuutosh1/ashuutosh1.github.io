@@ -21,7 +21,7 @@ export default function Aboutme() {
           University
         </span>
         <span className="text-base max-md:text-base max-md:mx-8 text-wrap">
-          <i className="fa-solid fa-star"></i> Trainee at the
+          <i class="fa-solid fa-certificate"></i> Trainee at the
           <ol className="px-8">
             <li> ../ Cisco CyberSecurity </li>
             <li> ../ MetaCrafter</li>

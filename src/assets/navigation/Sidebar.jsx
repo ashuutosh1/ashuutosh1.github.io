@@ -22,7 +22,7 @@ const Sidebar = () => {
                 : " text-white"
             }`}
           >
-              <i className="fa-solid fa-user"></i> ../ About me
+            <i className="fa-solid fa-user"></i> ../ About me
           </Link>
         </li>
 
@@ -37,6 +37,20 @@ const Sidebar = () => {
             }`}
           >
             <i className="fa-solid fa-diagram-project"></i> ../ Projects
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            to="/certificate"
+            onClick={() => handleLinkClick("/certificate")}
+            className={`list-side px-4 py-2 border rounded-xl ${
+              activeLink === "/certificate"
+                ? "border-purple-400 text-white"
+                : " text-white"
+            }`}
+          >
+            <i class="fa-solid fa-certificate"></i> ../ Certificate
           </Link>
         </li>
       </ul>
