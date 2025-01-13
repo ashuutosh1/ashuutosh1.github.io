@@ -20,7 +20,7 @@ export default function Projects() {
                 <div className="flex gap-5 max-md:gap-2">
                   <a
                     rel="noopener noreferrer"
-                    href="#"
+                    href="https://github.com/ashuutosh1/EcoRide-Mobile-App"
                     className="inline-flex items-center px-3 py-1 my-1 space-x-2 text-sm border rounded-full group dark:border-gray-300"
                   >
                     <span
@@ -41,7 +41,7 @@ export default function Projects() {
                       className="h-1.5 w-1.5 rounded-full dark:bg-violet-600"
                     ></span>
                     <span className="group-hover:underline dark:text-gray-600">
-                      Website
+                      App Link
                     </span>
                   </a>
                 </div>
@@ -49,15 +49,26 @@ export default function Projects() {
                 <span className="text-xs whitespace-nowrap">January, 2025</span>
               </div>
               <div className="space-y-2">
-                <span className="text-lg font-semibold underline">EcoRide</span>
+                <span className="text-lg font-semibold underline">
+                  EcoRide -- A bike and Cab booking application
+                </span>
                 <p className="text-purple-600 font-semibold">
-                  TechStack: HTML, CSS, JavaScript and Firebase
+                  TechStack: React Native, MongoDB, Google Map API, NodeJS,
+                  ExpressJS, WebSocket
                 </p>
                 <p>
-                  An anonymous file-sharing platform allows users to securely
-                  share files without revealing their identity. It ensures
-                  privacy through end-to-end encryption and does not require
-                  user registration or personal information.
+                  .....................Currently
+                  building.........................
+                </p>
+                <p>Product: Mobile Application</p>
+                <p>
+                  EcoRide is a versatile bike and cab booking application
+                  designed to provide users with seamless transportation
+                  solutions. Built with React Native, it delivers a smooth,
+                  cross-platform experience for both Android and iOS users. The
+                  app utilizes Google Map API for real-time navigation, ride
+                  tracking, and location services, ensuring efficient route
+                  planning.
                 </p>
               </div>
             </div>
@@ -107,12 +118,12 @@ export default function Projects() {
               </div>
               <div className="space-y-2">
                 <span className="text-lg font-semibold underline">
-                  {" "}
                   StreamLABEL - The online video view platform
                 </span>
                 <p className="text-purple-600 font-semibold">
                   TechStack: ReactJS, Tailwind CSS, Express JS, MongoDB
                 </p>
+                <p>Product: Website, Mobile App</p>
                 <p>
                   StreamLABEL is an online video view platform designed to
                   provide seamless video streaming and user engagement

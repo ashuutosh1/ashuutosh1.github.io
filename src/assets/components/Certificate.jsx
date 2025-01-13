@@ -1,5 +1,6 @@
 import React from "react";
 import WebDone from "../images/webdevdone.jpg";
+import Certi1 from "../images/certi1.png";
 
 export default function Certificate() {
   return (
@@ -37,7 +38,48 @@ export default function Certificate() {
                   NodeJS, Express JS, Rest API, Git, GitHub, Postgre SQL
                 </p>
                 <p>Course Duration: 62 hours</p>
-                <img src={WebDone} alt="vfv" className="max-w-72" />
+                <div className="max-w-72">
+                  <img src={WebDone} alt="vfv" className="max-w-72" />
+                </div>
+              </div>
+            </div>
+          </li>
+
+          {/* the third project */}
+          <li className="flex items-start space-x-3">
+            <div className="flex-1 space-y-2">
+              <div className="flex items-center justify-between space-x-4 dark:text-gray-500">
+                <div className="flex gap-5 max-md:gap-2">
+                  <a
+                    rel="noopener noreferrer"
+                    href="#"
+                    className="inline-flex items-center px-3 py-1 my-1 space-x-2 text-sm border rounded-full group dark:border-gray-300"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-600"
+                    ></span>
+                    <span className="group-hover:underline dark:text-gray-600">
+                      See Credietials
+                    </span>
+                  </a>
+                </div>
+                <span className="text-xs whitespace-nowrap">
+                  September, 2024
+                </span>
+              </div>
+              <div className="space-y-2">
+                <span className="text-lg font-semibold underline">
+                  Blockchain Revolution -- Coursera
+                </span>
+                <p className="text-purple-600 font-semibold">
+                  Topic Learned: Blockchain, Smart Contract, DApps, Solidity,
+                  Tokens, NFTs, Transaction in Blockchain and many more....
+                </p>
+                <p>Course provided by Chandigarh University</p>
+                <div className="max-w-72">
+                  <img src={Certi1} alt="vfv" className="max-w-72" />
+                </div>
               </div>
             </div>
           </li>
