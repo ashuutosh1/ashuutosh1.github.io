@@ -3,7 +3,7 @@ import React from "react";
 export default function Projects() {
   return (
     <div class=" p-4 mt-20 max-md:mt-5 ml-28 max-lg:ml-0">
-      <div className="max-w-2xl p-16 max-md:p-8 pr-10 max-md:pr-5 mx-auto  dark:text-gray-800">
+      <div className="max-w-2xl p-16 max-md:p-8 pr-10 max-md:pr-5 mx-auto  dark:text-gray-600">
         <h2 className="text-2xl font-bold md:text-4xl pb-10">Projects</h2>
         <ul className="space-y-12">
           <li className="flex items-start space-x-3">
@@ -15,7 +15,7 @@ export default function Projects() {
               v1.0.0
             </a>
             <div className="flex-1 space-y-2">
-              <div className="flex items-center justify-between space-x-4 dark:text-gray-600">
+              <div className="flex items-center justify-between space-x-4 dark:text-gray-500">
                 <div className="flex gap-5 max-md:gap-2">
                   <a
                     rel="noopener noreferrer"
@@ -26,7 +26,7 @@ export default function Projects() {
                       aria-hidden="true"
                       className="h-1.5 w-1.5 rounded-full dark:bg-violet-600"
                     ></span>
-                    <span className="group-hover:underline dark:text-gray-800">
+                    <span className="group-hover:underline dark:text-gray-600">
                       Github
                     </span>
                   </a>
@@ -39,7 +39,7 @@ export default function Projects() {
                       aria-hidden="true"
                       className="h-1.5 w-1.5 rounded-full dark:bg-violet-600"
                     ></span>
-                    <span className="group-hover:underline dark:text-gray-800">
+                    <span className="group-hover:underline dark:text-gray-600">
                       Website
                     </span>
                   </a>
@@ -51,7 +51,7 @@ export default function Projects() {
                 <span className="text-lg font-semibold underline">
                   Anynomous File Sharing Platform
                 </span>
-                <p className="text-purple-800 font-semibold">
+                <p className="text-purple-600 font-semibold">
                   TechStack: HTML, CSS, JavaScript and Firebase
                 </p>
                 <p>
@@ -82,7 +82,7 @@ export default function Projects() {
                     aria-hidden="true"
                     className="h-1.5 w-1.5 rounded-full dark:bg-violet-600"
                   ></span>
-                  <span className="group-hover:underline dark:text-gray-800">
+                  <span className="group-hover:underline dark:text-gray-600">
                     Github
                   </span>
                 </a>
@@ -92,7 +92,7 @@ export default function Projects() {
                 <span className="text-lg font-semibold underline">
                   Anynomous File Sharing Platform
                 </span>
-                <p className="text-purple-800 font-semibold">
+                <p className="text-purple-600 font-semibold">
                   TechStack: HTML, CSS, JavaScript and Firebase
                 </p>
                 <p>
@@ -126,7 +126,7 @@ export default function Projects() {
                       aria-hidden="true"
                       className="h-1.5 w-1.5 rounded-full dark:bg-violet-600"
                     ></span>
-                    <span className="group-hover:underline dark:text-gray-800">
+                    <span className="group-hover:underline dark:text-gray-600">
                       Github
                     </span>
                   </a>
@@ -139,7 +139,7 @@ export default function Projects() {
                       aria-hidden="true"
                       className="h-1.5 w-1.5 rounded-full dark:bg-violet-600"
                     ></span>
-                    <span className="group-hover:underline dark:text-gray-800">
+                    <span className="group-hover:underline dark:text-gray-600">
                       Website
                     </span>
                   </a>
@@ -151,7 +151,7 @@ export default function Projects() {
                 <span className="text-lg font-semibold underline">
                   Anynomous File Sharing Platform
                 </span>
-                <p className="text-purple-800 font-semibold">
+                <p className="text-purple-600 font-semibold">
                   TechStack: HTML, CSS, JavaScript and Firebase
                 </p>
                 <p>

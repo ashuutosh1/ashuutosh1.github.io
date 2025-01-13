@@ -1,10 +1,9 @@
 .links-me:hover {
-  border-width: 0.1rem; /* Specify the border width */
-  padding: 0.2rem; /* Add padding */
-  border-color: black; /* Set border color to red */
-  border-style: solid; /* Ensure the border has a visible style */
-  /* transition: all 0.3s ease; */
+  border-width: 0.1rem;
+  padding: 0.2rem;
+  border-color: black;
+  border-style: solid;
   border-radius: 1rem;
   color: white;
-  background-color: black; /* Smooth transition for hover effect */
+  background-color: black;
 }

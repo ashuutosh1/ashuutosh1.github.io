@@ -4,24 +4,25 @@ import "../navigation/Sidebar.css";
 
 const Sidebar = () => {
   const [activeLink, setActiveLink] = useState("/");
+
   const handleLinkClick = (path) => {
     setActiveLink(path);
   };
 
   return (
-    <div className=" flex sidebar-box list-none ml-40 max-lg:ml-20 max-md:ml-10 mt-40 max-md:mt-10">
+    <div className="flex sidebar-box list-none ml-40 max-lg:ml-20 max-md:ml-5 mt-40 max-md:mt-10">
       <ul className="flex flex-col max-md:flex-row gap-10 max-lg:gap-5 list-none text-lg max-lg:text-sm font-medium flex-wrap">
         <li>
           <Link
             to="/"
             onClick={() => handleLinkClick("/")}
-            className={`list-side px-4 py-2 border border-black rounded-xl ${
+            className={`list-side px-4 py-2 border rounded-xl ${
               activeLink === "/"
-                ? "bg-black text-white"
-                : "hover:bg-black hover:text-white"
+                ? "border-purple-400 text-white"
+                : " text-white"
             }`}
           >
-            <i className="fa-solid fa-user"></i> ../ About me
+              <i className="fa-solid fa-user"></i> ../ About me
           </Link>
         </li>
 
@@ -29,55 +30,13 @@ const Sidebar = () => {
           <Link
             to="/projects"
             onClick={() => handleLinkClick("/projects")}
-            className={`list-side px-4 py-2 border border-black rounded-xl ${
+            className={`list-side px-4 py-2 border rounded-xl ${
               activeLink === "/projects"
-                ? "bg-black text-white"
-                : "hover:bg-black hover:text-white"
+                ? "border-purple-400 text-white"
+                : " text-white"
             }`}
           >
             <i className="fa-solid fa-diagram-project"></i> ../ Projects
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            to="/achievements"
-            onClick={() => handleLinkClick("/achievements")}
-            className={`list-side px-4 py-2 border border-black rounded-xl ${
-              activeLink === "/achievements"
-                ? "bg-black text-white"
-                : "hover:bg-black hover:text-white"
-            }`}
-          >
-            <i className="fa-solid fa-sitemap"></i> ../ Achievement
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            to="/skills"
-            onClick={() => handleLinkClick("/skills")}
-            className={`list-side px-4 py-2 border border-black rounded-xl ${
-              activeLink === "/skills"
-                ? "bg-black text-white"
-                : "hover:bg-black hover:text-white"
-            }`}
-          >
-            <i className="fa-solid fa-terminal"></i> ../ Skills
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            to="/timeline"
-            onClick={() => handleLinkClick("/timeline")}
-            className={`list-side px-4 py-2 border border-black rounded-xl ${
-              activeLink === "/timeline"
-                ? "bg-black text-white"
-                : "hover:bg-black hover:text-white"
-            }`}
-          >
-            <i className="fa-solid fa-sitemap"></i> ../ Timeline
           </Link>
         </li>
       </ul>
