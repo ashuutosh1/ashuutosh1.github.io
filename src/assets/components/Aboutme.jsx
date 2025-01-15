@@ -5,7 +5,7 @@ import Luffy from "../images/luffy1.jpeg";
 export default function Aboutme() {
   return (
     <div className="flex max-lg:flex-col-reverse gap-20 max-md:gap-2 mt-40 max-md:mt-8 max-lg:ml-0">
-      <div className="flex flex-col gap-5 text-gray-600">
+      <div className="flex flex-col gap-5 text-gray-400">
         {" "}
         {/* Ensure all text is white on dark background */}
         <span className="text-2xl font-semibold max-md:mx-8">Hello, I am</span>
@@ -40,7 +40,7 @@ export default function Aboutme() {
             <span className="links-me">
               <a
                 href="mailto:bro4code@gmail.com"
-                className="text-gray-600 hover:text-pink-400"
+                className="text-gray-400 hover:text-pink-400"
               >
                 <i className="fa-solid fa-envelope"></i>
               </a>
@@ -48,7 +48,7 @@ export default function Aboutme() {
             <span className="links-me">
               <a
                 href="https://www.github.com/ashuutosh1"
-                className="text-gray-600 hover:text-pink-400"
+                className="text-gray-400 hover:text-pink-400"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -56,7 +56,7 @@ export default function Aboutme() {
             <span className="links-me">
               <a
                 href="https://www.x.com/ashutos_h1"
-                className="text-gray-600 hover:text-pink-400"
+                className="text-gray-400 hover:text-pink-400"
               >
                 <i className="fa-brands fa-twitter"></i>
               </a>
@@ -65,7 +65,7 @@ export default function Aboutme() {
             <span className="links-me">
               <a
                 href="https://www.linkedin.com/in/ashuutosh1"
-                className="text-gray-600 hover:text-pink-400"
+                className="text-gray-400 hover:text-pink-400"
               >
                 <i className="fa-brands fa-linkedin"></i>
               </a>

@@ -3,7 +3,7 @@ import React from "react";
 export default function Projects() {
   return (
     <div class=" p-4 mt-20 max-md:mt-5 ml-28 max-lg:ml-0">
-      <div className="max-w-2xl p-16 max-md:p-8 pr-10 max-md:pr-5 mx-auto  dark:text-gray-500">
+      <div className="max-w-2xl p-16 max-md:p-8 pr-10 max-md:pr-5 mx-auto  dark:text-gray-400">
         <h2 className="text-2xl font-bold md:text-4xl pb-10">Projects</h2>
         <ul className="space-y-12">
           {/* the third project */}
@@ -16,7 +16,7 @@ export default function Projects() {
               v4.0.0
             </a>
             <div className="flex-1 space-y-2">
-              <div className="flex items-center justify-between space-x-4 dark:text-gray-500">
+              <div className="flex items-center justify-between space-x-4 dark:text-gray-400">
                 <div className="flex gap-5 max-md:gap-2">
                   <a
                     rel="noopener noreferrer"
@@ -25,9 +25,9 @@ export default function Projects() {
                   >
                     <span
                       aria-hidden="true"
-                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-500"
+                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-400"
                     ></span>
-                    <span className="group-hover:underline dark:text-gray-500">
+                    <span className="group-hover:underline dark:text-gray-400">
                       Github
                     </span>
                   </a>
@@ -38,9 +38,9 @@ export default function Projects() {
                   >
                     <span
                       aria-hidden="true"
-                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-500"
+                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-400"
                     ></span>
-                    <span className="group-hover:underline dark:text-gray-500">
+                    <span className="group-hover:underline dark:text-gray-400">
                       App Link
                     </span>
                   </a>
@@ -52,7 +52,7 @@ export default function Projects() {
                 <span className="text-lg font-semibold underline">
                   EcoRide -- A bike and Cab booking application
                 </span>
-                <p className="text-purple-500 font-semibold">
+                <p className="text-purple-400 font-semibold">
                   TechStack: React Native, MongoDB, Google Map API, NodeJS,
                   ExpressJS, WebSocket
                 </p>
@@ -84,7 +84,7 @@ export default function Projects() {
               v3.0.0
             </a>
             <div className="flex-1 space-y-2">
-              <div className="flex items-center justify-between space-x-4 dark:text-gray-500">
+              <div className="flex items-center justify-between space-x-4 dark:text-gray-400">
                 <div className="flex gap-5 max-md:gap-2">
                   <a
                     rel="noopener noreferrer"
@@ -93,9 +93,9 @@ export default function Projects() {
                   >
                     <span
                       aria-hidden="true"
-                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-500"
+                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-400"
                     ></span>
-                    <span className="group-hover:underline dark:text-gray-500">
+                    <span className="group-hover:underline dark:text-gray-400">
                       Github
                     </span>
                   </a>
@@ -106,9 +106,9 @@ export default function Projects() {
                   >
                     <span
                       aria-hidden="true"
-                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-500"
+                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-400"
                     ></span>
-                    <span className="group-hover:underline dark:text-gray-500">
+                    <span className="group-hover:underline dark:text-gray-400">
                       Website
                     </span>
                   </a>
@@ -120,7 +120,7 @@ export default function Projects() {
                 <span className="text-lg font-semibold underline">
                   StreamLABEL - The online video view platform
                 </span>
-                <p className="text-purple-500 font-semibold">
+                <p className="text-purple-400 font-semibold">
                   TechStack: ReactJS, Tailwind CSS, Express JS, MongoDB
                 </p>
                 <p>Product: Website, Mobile App</p>
@@ -148,7 +148,7 @@ export default function Projects() {
               v2.0.0
             </a>
             <div className="flex-1 space-y-2">
-              <div className="flex items-center justify-between space-x-4 dark:text-gray-500">
+              <div className="flex items-center justify-between space-x-4 dark:text-gray-400">
                 <a
                   rel="noopener noreferrer"
                   href="#"
@@ -156,9 +156,9 @@ export default function Projects() {
                 >
                   <span
                     aria-hidden="true"
-                    className="h-1.5 w-1.5 rounded-full dark:bg-violet-500"
+                    className="h-1.5 w-1.5 rounded-full dark:bg-violet-400"
                   ></span>
-                  <span className="group-hover:underline dark:text-gray-500">
+                  <span className="group-hover:underline dark:text-gray-400">
                     Github
                   </span>
                 </a>
@@ -170,7 +170,7 @@ export default function Projects() {
                 <span className="text-lg font-semibold underline">
                   TaskGo : A simple site to manage your task
                 </span>
-                <p className="text-purple-500 font-semibold">
+                <p className="text-purple-400 font-semibold">
                   TechStack: React JS, Tailwind CSS, React Hooks
                 </p>
                 <p>
@@ -194,7 +194,7 @@ export default function Projects() {
               v1.0.0
             </a>
             <div className="flex-1 space-y-2">
-              <div className="flex items-center justify-between space-x-4 dark:text-gray-500">
+              <div className="flex items-center justify-between space-x-4 dark:text-gray-400">
                 <div className="flex gap-5 max-md:gap-2">
                   <a
                     rel="noopener noreferrer"
@@ -203,9 +203,9 @@ export default function Projects() {
                   >
                     <span
                       aria-hidden="true"
-                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-500"
+                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-400"
                     ></span>
-                    <span className="group-hover:underline dark:text-gray-500">
+                    <span className="group-hover:underline dark:text-gray-400">
                       Github
                     </span>
                   </a>
@@ -216,9 +216,9 @@ export default function Projects() {
                   >
                     <span
                       aria-hidden="true"
-                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-500"
+                      className="h-1.5 w-1.5 rounded-full dark:bg-violet-400"
                     ></span>
-                    <span className="group-hover:underline dark:text-gray-500">
+                    <span className="group-hover:underline dark:text-gray-400">
                       Website
                     </span>
                   </a>
@@ -230,7 +230,7 @@ export default function Projects() {
                 <span className="text-lg font-semibold underline">
                   Anynomous File Sharing Platform
                 </span>
-                <p className="text-purple-500 font-semibold">
+                <p className="text-purple-400 font-semibold">
                   TechStack: HTML, CSS, JavaScript and Firebase
                 </p>
                 <p>
